@@ -1,0 +1,15 @@
+[package]
+name = "NFT-Fantasy-Sports-League"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0xbf5511d69875f42f07fb21aedb0e8e81778ea3db2b034d101bc9081eae9abdc9'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
